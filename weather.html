@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1'>
+		<title>Weather app</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="weather.css">
+
+	</head>
+
+	<body>
+		
+	<div id="main-center" class="container text-center">
+		<div id="app-header">
+			<h1>Weather App!</h1>
+		</div>
+		<div id="frame">
+			<div id="screen">
+				<h2 id="weather"><span id="cel"></span><span id ="far"></span></h2>
+				<figure class="icons">
+        			<canvas id="icon" width="120" height="120"></canvas>
+        			<figcaption id="conditions"></figcaption>
+        		</figure>
+			</div>
+			<h3 id="currentLocation"><span id="location"></span></h3>
+		</div>
+		<div id="button-area" class="row">	
+			<button id="celButton" class="col-xs-3 col-xs-offset-2 active">°C</button>
+			<button id="farButton" class="col-xs-3 col-xs-offset-2">°F</button>
+		</div>
+		<div class="col-md-6 col-md-offset-3 text-center small"><p>Coded by <a id="footerLink" href="https://www.freecodecamp.com/henryangulo" target="_blank">Henry Angulo.</a></p>
+		<p class="text-center sub">About the project: <a id="footerLink" href="https://www.freecodecamp.com/challenges/show-the-local-weather" target="_blank">requiriments</a>-<a id="footerLink" href="http://codepen.io/FreeCodeCamp/full/bELRjV" target="_blank">model.</a></p></div>
+	</div>
+
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skycons/1396634940/skycons.js"></script>
+		<script type="text/javascript" src="weather.js"></script>
+	</body>
+
+</html>

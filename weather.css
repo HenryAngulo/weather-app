@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:700);
+body{
+	background-color: #0B1019;
+}
+#main-center{
+	font-family: 'Roboto Slab', serif;
+	color: #00698C;
+	margin-top: 4em;
+	margin-bottom: 4em;
+}
+#frame {
+	color: white;
+	background-color: #152030;
+	padding: 2.5em;
+	border-radius: 25px;
+	
+}
+#weather{
+	font-size: 3em;
+}
+.night{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#133f72+0,0b344f+20,152030+49,0b344f+80,133f72+100 */
+background: rgb(19,63,114); /* Old browsers */
+background: -moz-linear-gradient(-45deg,  rgba(19,63,114,1) 0%, rgba(11,52,79,1) 20%, rgba(21,32,48,1) 49%, rgba(11,52,79,1) 80%, rgba(19,63,114,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg,  rgba(19,63,114,1) 0%,rgba(11,52,79,1) 20%,rgba(21,32,48,1) 49%,rgba(11,52,79,1) 80%,rgba(19,63,114,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg,  rgba(19,63,114,1) 0%,rgba(11,52,79,1) 20%,rgba(21,32,48,1) 49%,rgba(11,52,79,1) 80%,rgba(19,63,114,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#133f72', endColorstr='#133f72',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+.day {
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b3dced+0,29b8e5+50,bce0ee+100;Blue+Pipe */
+background: rgb(179,220,237); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(179,220,237,1) 0%, rgba(41,184,229,1) 50%, rgba(188,224,238,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(179,220,237,1) 0%,rgba(41,184,229,1) 50%,rgba(188,224,238,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b3dced', endColorstr='#bce0ee',GradientType=1 ); /* IE6-9 */
+
+}
+#button-area{
+	margin: 1em 0;
+}
+button {
+	position: relative;
+	padding: 0.5em;
+	outline: 0;
+	background-color: #00698C;
+	color: white;
+	border: none;
+	border-bottom: 5px solid #0093C4;
+	border-radius: 25px;
+	-webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+.active{
+	background-color: #003B4F;
+	top:5px;
+	border:none;
+	transition: all 0.8s ease-out;
+}
+
+a{
+	color: white;
+}
